@@ -1,0 +1,76 @@
+section:
+  name: Experiences # Titre de la section (par défaut: "" )
+  id: experiences # url id/slug of section *Required*
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+  # Your experiences
+experiences:
+- company:
+    name: New Leaf Technologies
+    url: "https://newleaftech.com/"
+    location: Sandton Branch
+    logo: /images/experiences/nlt1.jpg
+    darkLogo: /images/experiences/nlt.png #(optional), Can optionally show a different logo for dark theme
+    # company overview
+    overview: New Leaf Technologies is an innovative eLearning solutions provider.
+  positions:
+  - designation: Senior Software Engineer
+    start: Feb 2022
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Orchestrated seamless integration between diverse infrastructures using REST APIs, Azure Function apps, and msSQL.
+    - Automating processes.
+    - Empowering data-driven business intelligence.
+    - Facilitating Single Sign-On (SSO) from enterprise HRMs to our LMS platform, enhancing efficiency and user experience.
+    - Strategically conceived, designed, and executed end-to-end development cycles for innovative systems.
+    - Delivered and maintained a diverse range of bespoke solutions, leveraging cutting-edge technologies and best practices.
+    - Achieved operational efficiency and customer satisfaction.
+    - Streamlined development and deployment workflows with Azure DevOps, implementing automated pipelines and efficient source control to reduce deployment times by more than 75%.
+    - Contributed to faster and more reliable software delivery, increasing productivity and reducing time-to-market.
+
+- company:
+    name: IQbusiness
+    url: "https://iqbusiness.net/"
+    location: Sandton Branch
+    logo: /images/experiences/company.png
+    darkLogo: /images/experiences/company-dark.png #(optional), Can optionally show a different logo for dark theme
+    # company overview
+    overview: IQbusiness is one of the largest South African management and technology consulting firms, attracting top talent and ambitious clients, both locally and globally.
+  positions:
+  - designation: Fullstack Software Developer(Senior Associate)
+    start: Jun 2019
+    end: Dec 2021
+
+    responsibilities:
+    - Developed and supported modern cross-platform applications for diverse industries (Mining, Insurance, Financial).
+    - Utilized React-Native, Cordova, and AngularJS to build feature-rich mobile and web applications.
+    - Deployed and integrated applications on Microsoft's Azure cloud platform, using DevOps for source control and CI/CD pipelines.
+    - Integrated Firebase Push Notifications API for targeted user engagement and increased retention.
+    - Collaborated with clients to design and deliver tailored solutions, providing ongoing support and enhancements.
+    - Ensured seamless front-end application experiences, optimizing user interactions.
+
+- company:
+    name: Ecofoote
+    url: "https://www.ecofoote.com"
+    location: Remote
+    logo: /images/experiences/company.png
+    darkLogo: /images/experiences/company-dark.png #(optional), Can optionally show a different logo for dark theme
+    # company overview
+    overview: Working as the lead developer for the startup ecofoote. I have been instrumental in designing, developing, and managing the app using Google APIs (including Maps), and Firebase.
+  positions:
+  - designation: Fullstack Software Developer
+    start: Jan 2020
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Designing and developing the ecofoote cross-platform mobile app using React-Native, Google APIs(inc. Maps) and Firebase.
+    - Integration into Firebase APIs such as Firebase Authentication and Realtime database.
+    - Liaising with clients and potential investors around technologies used and why they were used.
+    - Project management in terms of setting up sprints, project boards and sizing of tickets.

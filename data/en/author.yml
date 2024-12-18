@@ -1,18 +1,17 @@
 # some information about you
 name: "Kyle Routledge"
 nickname: "Kyle"
-image: "images/default-avatar.png"
+image: "images/kroutledge.png"
 
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Hi, I am"
+greeting: "Hi, my name is"
 
 # give your contact information. they will be used in the footer
 contactInfo:
   email: "kyle.routledge1@gmail.com"
-  phone: "+0123456789"
 
 # a summary of what you do
 summary:
 - I am a Fullstack Developer
 - I work with Azure, DevOps and RESTful APIs
-- I love to build websites and integrations
+- I love to build websites, APIs and integrations

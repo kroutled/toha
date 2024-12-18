@@ -1,0 +1,76 @@
+section:
+  name: About # Title of section (default: "")
+  id: about # url id/slug of section *Required*
+  enable: true # Boolean to determine if this section is enabled (default: false)
+  weight: 1 # Order to display section in (default: alphabetical followed by weight)
+  showOnNavbar: true # Boolean to determine if a link should be shown for this section on the navbar
+  template: sections/about.html # allows you to point to a specific template.
+
+  # your designation
+designation: Software Engineer
+# your company information
+company:
+  name: New Leaf Technologies
+  url: "https://www.newleaftech.co.za"
+
+  # a summary about you
+summary: 'As a full stack software developer, I am driven to excel in challenging
+environments. I thrive on continuous learning and welcome opportunities to
+contribute my knowledge and skills to various industries. My dedication to
+personal growth and commitment to fostering collaborative environments
+allows me to consistently deliver innovative solutions that benefit both the
+organization and its stakeholders.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "kyle.routledge1@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/kroutled/"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/kyle-routledge-kroutled/"
+
+  # your resume. this file path should be relative to you "static" directory
+resourceLinks:
+- title: "My Resume"
+  url: "files/resume.pdf"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+- type: certification
+  name: Azure Fundamentals (az-900)
+  url: "https://www.credly.com/badges/fc400597-ec27-41b1-8a67-d67b716d3e9e/public_url"
+  badge: "https://images.credly.com/size/340x340/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png"
+
+- type: certification
+  name: Microsoft Database Fundamentals (Exam 98-364)
+  url: "https://www.credly.com/badges/7e54fc92-d464-4e4b-935f-6e6e1bc4fbed/public_url"
+  badge: "https://images.credly.com/size/340x340/images/89076aca-a42e-47e1-8172-5b60b31812d9/MTA-Database_Fundamentals.png"
+
+- type: certification
+  name: Microsoft Power Platform Fundamentals (pl-900)
+  url: "https://www.credly.com/badges/bafd0e7f-32d9-4828-8277-eef9253ca892/public_url"
+  badge: "https://images.credly.com/size/340x340/images/2a6251f2-737b-4bf6-9190-d77570cc76fc/CERT-Fundamentals-Power-Platform.png"
+
+- type: soft-skill-indicator
+  name: Adaptability
+  percentage: 85
+  color: blue
+
+- type: soft-skill-indicator
+  name: Project Management
+  percentage: 90
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Analytical Mindset
+  percentage: 85
+  color: orange

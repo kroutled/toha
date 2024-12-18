@@ -1,0 +1,30 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Azure
+  logo: /images/sections/skills/azure.jpg
+  summary: "Capable of deploying, managing resources on Azure. Experienced in working with App Services, MSSQL Servers, Azure Functions."
+  url: "https://azure.microsoft.com/en-us/"
+
+- name: Azure DevOps
+  logo: /images/sections/skills/devops.jpg
+  summary: "Leveraging DevOps features such as version control, automated pipelines and project management tools to optimise team work"
+  url: "https://azure.microsoft.com/en-us/"
+
+- name: C#
+  logo: /images/sections/skills/csharp.jpg
+  summary: "Experienced in working with the C# programming language. Building solutions using various technologies and patterns such as .NET MVC web applications, Windows services, Entity Framework and more"
+  url: "https://azure.microsoft.com/en-us/"
+
+

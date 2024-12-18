@@ -23,3 +23,29 @@ module:
     target: static/files
   - source: ../../node_modules/katex/dist/fonts
     target: static/fonts
+
+# Site parameters
+params:
+  # Configure various features of this theme
+
+  background: "images/banner.jpg"
+
+  features:
+    
+
+    # Enable and configure blog posts
+    blog:
+      enable: true
+      showAuthor: true
+      # Share post on different social media
+      shareButtons:
+        facebook: true
+        twitter: true
+        linkedin: true
+        reddit: true
+        whatsapp: true
+        email: true
+
+    # specify whether you want to show Table of Contents in reading page
+    toc:
+      enable: true

@@ -13,8 +13,8 @@ experiences:
     name: New Leaf Technologies
     url: "https://newleaftech.com/"
     location: Sandton Branch
-    logo: /images/experiences/nlt1.jpg
-    darkLogo: /images/experiences/nlt.png #(optional), Can optionally show a different logo for dark theme
+    logo: /images/experiences/nlt.png
+    #darkLogo: /images/experiences/nlt.png #(optional), Can optionally show a different logo for dark theme
     # company overview
     overview: New Leaf Technologies is an innovative eLearning solutions provider.
   positions:
@@ -38,8 +38,8 @@ experiences:
     name: IQbusiness
     url: "https://iqbusiness.net/"
     location: Sandton Branch
-    logo: /images/experiences/company.png
-    darkLogo: /images/experiences/company-dark.png #(optional), Can optionally show a different logo for dark theme
+    logo: /images/experiences/iq.svg
+    #darkLogo: /images/experiences/company-dark.png #(optional), Can optionally show a different logo for dark theme
     # company overview
     overview: IQbusiness is one of the largest South African management and technology consulting firms, attracting top talent and ambitious clients, both locally and globally.
   positions:
@@ -59,8 +59,8 @@ experiences:
     name: Ecofoote
     url: "https://www.ecofoote.com"
     location: Remote
-    logo: /images/experiences/company.png
-    darkLogo: /images/experiences/company-dark.png #(optional), Can optionally show a different logo for dark theme
+    logo: /images/experiences/eco.png
+    #darkLogo: /images/experiences/company-dark.png #(optional), Can optionally show a different logo for dark theme
     # company overview
     overview: Working as the lead developer for the startup ecofoote. I have been instrumental in designing, developing, and managing the app using Google APIs (including Maps), and Firebase.
   positions:
